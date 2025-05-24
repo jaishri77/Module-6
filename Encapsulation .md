@@ -23,7 +23,25 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 ---
 
 ## 💻 Program
+```
+class Rectangle:
+    def __init__(self, length=10, breadth=5):
+        self.__length = length
+        self.__breadth = breadth
+        print(" Using Encapsulation in Python:")
+        print(" Length is:", self.__length)
+        print(" Breadth is:", self.__breadth)
+
+rect = Rectangle()
+```
 
 ## Output
+```
+ Using Encapsulation in Python:
+ Length is: 10
+ Breadth is: 5
+```
 
 ## Result
+ By using encapsulation in Python, we can securely store and access private data inside a class without exposing it directly.
+
